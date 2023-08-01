@@ -16,7 +16,7 @@ It will take survey when we started and detect the gender(Male or Female by usin
 Activate **virtualenv**
 ```console
    virtualenv env
-  .\env\Scripts\activate  
+  .\Scripts\activate  
 ```
 Run pip to install all the dependencies
 ```console
