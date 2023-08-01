@@ -1,0 +1,55 @@
+{
+    "intents": [{
+            "tag": "my Name please:",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for responding",
+                "Hi there,this is for suvery"
+            ]
+        },
+        {
+            "tag": "response greeting",
+            "patterns": [
+                "How are you"
+            ],
+            "responses": [
+                "I'm fine what about you?",
+                "I'm doing great what about you?",
+                "Great! How are you?"
+            ]
+        },
+        {
+            "tag": "about me",
+            "patterns": [
+                "Tell me about yourself",
+                "What are you"
+            ],
+            "responses": [
+                "I'm a natural language proccessing conversational chatbot",
+                "I'm a chatbot to make your life easy"
+            ]
+        },
+        {
+            "tag": "action",
+            "patterns": [
+                "What about you",
+                "nothing What about you",
+                "playing What about you",
+                "What are you doing",
+                "What are you up to"
+            ],
+            "responses": [
+                "Nothing much! I'm talking with you",
+                "Just tired",
+                "I'm sleeping"
+            ]
+        }
+    ]
+}
